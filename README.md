@@ -33,8 +33,12 @@ On the full 30-second, 7-throw test recording: 101 unique tracking IDs (new IDs 
 
 ```
 .
-├── CV_Project_Bowling.ipynb   # end-to-end notebook: extraction, training, inference
-├── report.json                # per-pin fall events from the inference run
+├── CV_Project_Bowling.ipynb       # end-to-end notebook: extraction, training, inference
+├── CV_Project_Video.mov           # raw source recording (7 throws)
+├── CV_Project_Video_final.mp4     # source video used for the inference run
+├── annotated_output_video.mp4     # pipeline output: fall markers, HUD, summary screen
+├── bowling_dataset_yolov8.zip     # Roboflow-exported labeled dataset (YOLOv8 format)
+├── report.json                    # per-pin fall events from the inference run
 └── README.md
 ```
 
