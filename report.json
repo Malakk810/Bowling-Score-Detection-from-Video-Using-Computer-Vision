@@ -1,0 +1,187 @@
+{
+  "duration_seconds": 29.133333333333333,
+  "unique_pins_tracked": 101,
+  "total_falls": 36,
+  "fall_events": [
+    {
+      "pin_id": 7,
+      "frame": 115,
+      "timestamp": 3.6666666666666665
+    },
+    {
+      "pin_id": 9,
+      "frame": 117,
+      "timestamp": 3.7333333333333334
+    },
+    {
+      "pin_id": 1,
+      "frame": 121,
+      "timestamp": 3.8666666666666667
+    },
+    {
+      "pin_id": 8,
+      "frame": 122,
+      "timestamp": 3.9
+    },
+    {
+      "pin_id": 10,
+      "frame": 128,
+      "timestamp": 4.1
+    },
+    {
+      "pin_id": 2,
+      "frame": 163,
+      "timestamp": 5.266666666666667
+    },
+    {
+      "pin_id": 3,
+      "frame": 163,
+      "timestamp": 5.266666666666667
+    },
+    {
+      "pin_id": 4,
+      "frame": 163,
+      "timestamp": 5.266666666666667
+    },
+    {
+      "pin_id": 20,
+      "frame": 233,
+      "timestamp": 7.6
+    },
+    {
+      "pin_id": 23,
+      "frame": 236,
+      "timestamp": 7.7
+    },
+    {
+      "pin_id": 22,
+      "frame": 246,
+      "timestamp": 8.033333333333333
+    },
+    {
+      "pin_id": 30,
+      "frame": 249,
+      "timestamp": 8.133333333333333
+    },
+    {
+      "pin_id": 6,
+      "frame": 251,
+      "timestamp": 8.2
+    },
+    {
+      "pin_id": 32,
+      "frame": 254,
+      "timestamp": 8.3
+    },
+    {
+      "pin_id": 46,
+      "frame": 283,
+      "timestamp": 9.266666666666667
+    },
+    {
+      "pin_id": 43,
+      "frame": 294,
+      "timestamp": 9.633333333333333
+    },
+    {
+      "pin_id": 51,
+      "frame": 488,
+      "timestamp": 16.1
+    },
+    {
+      "pin_id": 58,
+      "frame": 495,
+      "timestamp": 16.333333333333332
+    },
+    {
+      "pin_id": 62,
+      "frame": 501,
+      "timestamp": 16.533333333333335
+    },
+    {
+      "pin_id": 52,
+      "frame": 507,
+      "timestamp": 16.733333333333334
+    },
+    {
+      "pin_id": 55,
+      "frame": 507,
+      "timestamp": 16.733333333333334
+    },
+    {
+      "pin_id": 65,
+      "frame": 513,
+      "timestamp": 16.933333333333334
+    },
+    {
+      "pin_id": 66,
+      "frame": 535,
+      "timestamp": 17.666666666666668
+    },
+    {
+      "pin_id": 67,
+      "frame": 535,
+      "timestamp": 17.666666666666668
+    },
+    {
+      "pin_id": 54,
+      "frame": 537,
+      "timestamp": 17.733333333333334
+    },
+    {
+      "pin_id": 64,
+      "frame": 539,
+      "timestamp": 17.8
+    },
+    {
+      "pin_id": 72,
+      "frame": 539,
+      "timestamp": 17.8
+    },
+    {
+      "pin_id": 73,
+      "frame": 539,
+      "timestamp": 17.8
+    },
+    {
+      "pin_id": 83,
+      "frame": 622,
+      "timestamp": 20.566666666666666
+    },
+    {
+      "pin_id": 87,
+      "frame": 800,
+      "timestamp": 26.5
+    },
+    {
+      "pin_id": 115,
+      "frame": 836,
+      "timestamp": 27.7
+    },
+    {
+      "pin_id": 92,
+      "frame": 841,
+      "timestamp": 27.866666666666667
+    },
+    {
+      "pin_id": 93,
+      "frame": 841,
+      "timestamp": 27.866666666666667
+    },
+    {
+      "pin_id": 100,
+      "frame": 841,
+      "timestamp": 27.866666666666667
+    },
+    {
+      "pin_id": 105,
+      "frame": 842,
+      "timestamp": 27.9
+    },
+    {
+      "pin_id": 118,
+      "frame": 845,
+      "timestamp": 28.0
+    }
+  ]
+}
