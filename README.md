@@ -34,7 +34,6 @@ On the full 30-second, 7-throw test recording: 101 unique tracking IDs (new IDs 
 ```
 .
 ├── CV_Project_Bowling.ipynb   # end-to-end notebook: extraction, training, inference
-├── DSAI352_BowlingReport.pdf  # written report
 ├── report.json                # per-pin fall events from the inference run
 └── README.md
 ```
@@ -48,11 +47,3 @@ The notebook was written for Google Colab and expects the project directory moun
 3. Set `ROBOFLOW_API_KEY` as an environment variable (the notebook reads it via `os.environ.get("ROBOFLOW_API_KEY", "YOUR_API_KEY")` — don't hardcode it), and fill in your own Roboflow workspace/project names. Run the frame extraction and keyframe-selection cells, or skip straight to downloading the labeled dataset if you're reusing existing annotations.
 4. Train: `model.train(data=data_yaml, epochs=60, imgsz=640, batch=16, optimizer='AdamW', lr0=0.01, ...)` — see the notebook for full arguments.
 5. Run `process_video(...)` on the target `.mp4`/`.mov` to produce the annotated output video and `report.json`.
-
-## Limitations
-
-- Class imbalance holds `Fallen_Pin` recall down (0.803); more fallen-pin samples or class-weighted loss would help, though it wouldn't change the disappearance-based detector itself.
-- ByteTrack reassigns IDs after each pinsetter reset (101 IDs tracked for 10 physical pins over 7 throws); the proximity-based duplicate check mitigates but doesn't eliminate double-counting risk.
-- The fall marker uses the last known centroid before disappearance, so partial occlusion at that moment can shift it slightly.
-- Assumes a fixed camera; significant hand movement during a throw could trigger false disappearances.
-- No ball tracking — contact timing isn't used to confirm a fall is real versus an occlusion.
